@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="win64"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="Embarca_PDV.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="20" Y="5"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Modulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="99"/>
+        <CursorPos X="68" Y="108"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Menu"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="17" Y="3"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="login2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Login2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="3" Y="112"/>
+        <UsageCount Value="27"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="caixa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmCaixa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Caixa"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="formularios\caixa.pas"/>
+        <ComponentName Value="FrmCaixa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Caixa"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="formularios\login2.pas"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Login2"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="53"/>
+        <UsageCount Value="21"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="formularios\menu.pas"/>
+        <ComponentName Value="FrmMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Menu"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="20" Y="8"/>
+        <UsageCount Value="21"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Movimentacoes\caixa.pas"/>
+        <ComponentName Value="FrmCaixa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Caixa"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="189"/>
+        <CursorPos X="14" Y="197"/>
+        <UsageCount Value="25"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Login.pas"/>
+        <ComponentName Value="FrmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="50" Y="13"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="login2.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Login.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="G:\laz_conf64\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2530"/>
+        <CursorPos Y="2537"/>
+        <UsageCount Value="12"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="G:\laz_conf64\onlinepackagemanager\packages\zeosdbo\src\plain\ZPlainLoader.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="243"/>
+        <CursorPos Y="250"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\ccr\zeos_stable\src\plain\ZPlainLoader.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="218"/>
+        <CursorPos X="23" Y="236"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Usuarios.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\ccr\zeos_stable\src\dbc\ZDbcMySqlUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="302"/>
+        <CursorPos Y="310"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="27" HistoryIndex="26">
+      <Position1>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="124" Column="21" TopLine="124"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="123" Column="21" TopLine="123"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="122" Column="21" TopLine="122"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="121" Column="21" TopLine="121"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="120" Column="21" TopLine="120"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="119" Column="21" TopLine="119"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="118" Column="21" TopLine="118"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="117" Column="21" TopLine="117"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="116" Column="21" TopLine="116"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="115" Column="21" TopLine="115"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="114" Column="21" TopLine="114"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="113" Column="21" TopLine="113"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="112" Column="21" TopLine="112"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="111" Column="21" TopLine="111"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="110" Column="21" TopLine="110"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="109" Column="21" TopLine="109"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="108" Column="21" TopLine="108"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="107" Column="21" TopLine="107"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="123" Column="37" TopLine="111"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="124" Column="3" TopLine="111"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="125" Column="3" TopLine="112"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="125" Column="3" TopLine="67"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="109" Column="9" TopLine="97"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="108" Column="30" TopLine="99"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="8" Column="9"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Modulo.pas"/>
+        <Caret Line="108" Column="66" TopLine="99"/>
+      </Position26>
+      <Position27>
+        <Filename Value="menu.pas"/>
+        <Caret Line="3" Column="17"/>
+      </Position27>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

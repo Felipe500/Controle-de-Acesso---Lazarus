@@ -1,0 +1,112 @@
+object dm: Tdm
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 392
+  HorizontalOffset = 194
+  VerticalOffset = 130
+  Width = 513
+  object fd: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+      'controls_cp=CP_UTF8'
+    )
+    DesignConnection = True
+    BeforeConnect = fdBeforeConnect
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'sistema_pdv'
+    User = 'root'
+    Password = 'Zf512@20'
+    Protocol = 'MariaDB-10'
+    LibraryLocation = 'lid/libmysql.dll'
+    Left = 24
+    Top = 16
+  end
+  object tb_cargos: TZTable
+    Connection = fd
+    TableName = 'cargos'
+    Left = 88
+    Top = 32
+  end
+  object tb_func: TZTable
+    Connection = fd
+    TableName = 'funcionarios'
+    Left = 160
+    Top = 40
+  end
+  object tb_usuarios: TZTable
+    Connection = fd
+    TableName = 'usuarios'
+    Left = 216
+    Top = 8
+  end
+  object query_cargos: TZQuery
+    Connection = fd
+    SQL.Strings = (
+      'select * from cargos order by cargo asc'
+    )
+    Params = <>
+    Left = 24
+    Top = 80
+  end
+  object query_func: TZQuery
+    Connection = fd
+    SQL.Strings = (
+      'select * from funcionarios'
+    )
+    Params = <>
+    Left = 112
+    Top = 104
+  end
+  object query_usuarios: TZQuery
+    Connection = fd
+    SQL.Strings = (
+      'select * from usuarios'
+    )
+    Params = <>
+    Left = 200
+    Top = 104
+  end
+  object DSCaixa: TDataSource
+    Left = 296
+    Top = 168
+  end
+  object DSUsuarios: TDataSource
+    DataSet = query_usuarios
+    Left = 232
+    Top = 176
+  end
+  object DSFunc: TDataSource
+    DataSet = query_func
+    Left = 304
+    Top = 104
+  end
+  object DSCargos: TDataSource
+    DataSet = query_cargos
+    Left = 312
+    Top = 32
+  end
+  object query_caixa_coringa: TZQuery
+    Connection = fd
+    Params = <>
+    Left = 96
+    Top = 168
+  end
+  object query_caixa: TZQuery
+    Connection = fd
+    SQL.Strings = (
+      'select * from caixa'
+    )
+    Params = <>
+    Left = 40
+    Top = 152
+  end
+  object tb_caixa: TZTable
+    Connection = fd
+    TableName = 'caixa'
+    Left = 252
+    Top = 78
+  end
+end

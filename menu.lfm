@@ -1,0 +1,704 @@
+object FrmMenu: TFrmMenu
+  Left = 60
+  Height = 668
+  Top = 36
+  Width = 1300
+  BorderStyle = bsSingle
+  Caption = 'FrmMenu'
+  ClientHeight = 648
+  ClientWidth = 1300
+  Color = 15168018
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  LCLVersion = '2.0.12.0'
+  WindowState = wsMaximized
+  object Panel2: TPanel
+    Left = 0
+    Height = 81
+    Top = 8
+    Width = 1041
+    ClientHeight = 81
+    ClientWidth = 1041
+    Color = 15168018
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object Panel3: TPanel
+      Left = 538
+      Height = 71
+      Top = 2
+      Width = 230
+      ClientHeight = 71
+      ClientWidth = 230
+      Color = 14913096
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+      object Image10: TImage
+        Cursor = crHandPoint
+        Left = 24
+        Height = 55
+        Top = 8
+        Width = 65
+        Proportional = True
+      end
+      object Label17: TLabel
+        Cursor = crHandPoint
+        Left = 111
+        Height = 23
+        Top = 37
+        Width = 70
+        Caption = 'VENDAS'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label20: TLabel
+        Cursor = crHandPoint
+        Left = 106
+        Height = 23
+        Top = 8
+        Width = 72
+        Caption = 'TELA DE'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel4: TPanel
+      Left = 273
+      Height = 71
+      Top = 2
+      Width = 230
+      ClientHeight = 71
+      ClientWidth = 230
+      Color = 14913096
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 1
+      object Image7: TImage
+        Cursor = crHandPoint
+        Left = 24
+        Height = 64
+        Top = 3
+        Width = 65
+      end
+      object Label18: TLabel
+        Cursor = crHandPoint
+        Left = 102
+        Height = 23
+        Top = 11
+        Width = 59
+        Caption = 'CONTA'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label12: TLabel
+        Cursor = crHandPoint
+        Left = 95
+        Height = 23
+        Top = 36
+        Width = 84
+        Caption = 'CLIENTES'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel5: TPanel
+      Left = 0
+      Height = 71
+      Top = 2
+      Width = 230
+      ClientHeight = 71
+      ClientWidth = 230
+      Color = 14913096
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 2
+      object Image9: TImage
+        Cursor = crHandPoint
+        Left = 16
+        Height = 77
+        Top = 2
+        Width = 73
+      end
+      object Label13: TLabel
+        Cursor = crHandPoint
+        Left = 95
+        Height = 23
+        Top = 15
+        Width = 84
+        Caption = 'Caixas em'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label14: TLabel
+        Cursor = crHandPoint
+        Left = 95
+        Height = 23
+        Top = 35
+        Width = 88
+        Caption = 'Operações'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel6: TPanel
+      Left = 799
+      Height = 71
+      Top = 2
+      Width = 230
+      ClientHeight = 71
+      ClientWidth = 230
+      Color = 14913096
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 3
+      object Image11: TImage
+        Cursor = crHandPoint
+        Left = 8
+        Height = 55
+        Top = 6
+        Width = 57
+        Proportional = True
+      end
+      object Label21: TLabel
+        Cursor = crHandPoint
+        Left = 127
+        Height = 1
+        Top = 37
+        Width = 1
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label22: TLabel
+        Cursor = crHandPoint
+        Left = 71
+        Height = 23
+        Top = 21
+        Width = 153
+        Caption = 'MOVIMENTAÇÕES'
+        Font.Color = clHighlightText
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = 1072
+    Height = 704
+    Top = 0
+    Width = 287
+    ClientHeight = 704
+    ClientWidth = 287
+    Color = 7510608
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = -6
+      Height = 13
+      Top = 137
+      Width = 476
+      Caption = '____________________________________________________________________'
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = -7
+      Height = 13
+      Top = 279
+      Width = 462
+      Caption = '__________________________________________________________________'
+      Color = clWhite
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label3: TLabel
+      Left = -47
+      Height = 13
+      Top = 425
+      Width = 462
+      Caption = '__________________________________________________________________'
+      Color = clWhite
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label4: TLabel
+      Left = 1
+      Height = 13
+      Top = 569
+      Width = 462
+      Caption = '__________________________________________________________________'
+      Color = clWhite
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object lbHora: TLabel
+      Left = 104
+      Height = 29
+      Top = 40
+      Width = 69
+      Caption = 'HORA'
+      Font.Color = clWhite
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbData: TLabel
+      Left = 104
+      Height = 29
+      Top = 106
+      Width = 56
+      Caption = 'Data'
+      Font.Color = clWhite
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbData1: TLabel
+      Left = 16
+      Height = 29
+      Top = 106
+      Width = 65
+      Caption = 'Data:'
+      Font.Color = clWhite
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 106
+      Height = 19
+      Top = 192
+      Width = 48
+      Caption = 'Nome:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbusuario: TLabel
+      Left = 160
+      Height = 19
+      Top = 192
+      Width = 65
+      Caption = 'lbusuario'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 106
+      Height = 19
+      Top = 230
+      Width = 48
+      Caption = 'Cargo:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbcargo: TLabel
+      Left = 160
+      Height = 19
+      Top = 230
+      Width = 46
+      Caption = 'Label6'
+      Color = 3554180
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object lbentradas: TLabel
+      Left = 100
+      Height = 19
+      Top = 313
+      Width = 67
+      Caption = 'Entradas:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label10: TLabel
+      Left = 117
+      Height = 19
+      Top = 348
+      Width = 51
+      Caption = 'Saídas:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 123
+      Height = 19
+      Top = 385
+      Width = 45
+      Caption = 'Saldo:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbentrada: TLabel
+      Left = 173
+      Height = 21
+      Top = 312
+      Width = 11
+      Caption = '0'
+      Font.Color = clLime
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbsaida: TLabel
+      Left = 173
+      Height = 21
+      Top = 348
+      Width = 11
+      Caption = '0'
+      Color = clGreen
+      Font.Color = clRed
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object lbsaldo: TLabel
+      Left = 173
+      Height = 21
+      Top = 384
+      Width = 11
+      Caption = '0'
+      Font.Color = clBlue
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Image4: TImage
+      Left = 16
+      Height = 76
+      Top = 469
+      Width = 73
+    end
+    object Label15: TLabel
+      Left = 111
+      Height = 19
+      Top = 504
+      Width = 111
+      Caption = 'Caixas Abertos:'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbcaixas: TLabel
+      Left = 228
+      Height = 19
+      Top = 504
+      Width = 9
+      Caption = '0'
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbEstoque: TLabel
+      Cursor = crHandPoint
+      Left = 112
+      Height = 23
+      Top = 630
+      Width = 67
+      Caption = 'Estoque'
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object pnEstoque: TPanel
+      Cursor = crHandPoint
+      Left = 16
+      Height = 72
+      Top = 609
+      Width = 72
+      BevelColor = clHotLight
+      Color = clGreen
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+    end
+  end
+  object gridCaixa: TDBGrid
+    Left = 0
+    Height = 236
+    Top = 88
+    Width = 681
+    Color = clWindow
+    Columns = <>
+    TabOrder = 2
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+  end
+  object gridVendas: TDBGrid
+    Left = 0
+    Height = 249
+    Top = 417
+    Width = 681
+    Color = clWindow
+    Columns = <>
+    TabOrder = 3
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+  end
+  object Label19: TLabel
+    Cursor = crHandPoint
+    Left = 87
+    Height = 23
+    Top = 349
+    Width = 60
+    Caption = 'Últimas'
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Cursor = crHandPoint
+    Left = 87
+    Height = 23
+    Top = 375
+    Width = 61
+    Caption = 'Vendas'
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Image8: TImage
+    Cursor = crHandPoint
+    Left = 0
+    Height = 73
+    Top = 338
+    Width = 81
+  end
+  object Image6: TImage
+    Left = 744
+    Height = 203
+    Top = 432
+    Width = 233
+    Stretch = True
+  end
+  object Image5: TImage
+    Left = 744
+    Height = 200
+    Top = 104
+    Width = 233
+    Stretch = True
+  end
+  object MainMenu1: TMainMenu
+    Left = 340
+    Top = 103
+    object MenuItem1: TMenuItem
+      Caption = 'Cadastros'
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+        OnClick = Produtos1Click
+      end
+      object Fornecedores: TMenuItem
+        Caption = 'Fornecedores'
+      end
+      object NivelAcesso: TMenuItem
+        Caption = 'Níveis de Acesso'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'Funcionário'
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'Cargos'
+      end
+      object MenuItem16: TMenuItem
+        Caption = 'Clientes'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Estoque'
+      object MenuItem10: TMenuItem
+        Caption = 'Entradas de Produtos'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Saídas de Produtos'
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Nível Baixo'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Movimentações'
+      object MenuItem13: TMenuItem
+        Caption = 'Vender (PDV)'
+      end
+      object MenuItem17: TMenuItem
+        Caption = 'Movimentações'
+      end
+      object MenuItem18: TMenuItem
+        Caption = 'Gastos'
+      end
+      object MenuItem19: TMenuItem
+        Caption = 'Pagamentos'
+        OnClick = MenuItem19Click
+      end
+      object MenuItem20: TMenuItem
+        Caption = 'Consultar Vendas'
+      end
+      object MenuItem21: TMenuItem
+        Caption = 'Fluxo de Caixa'
+      end
+      object MenuItem23: TMenuItem
+        Caption = 'Certificado Digital'
+      end
+    end
+    object MenuItem22: TMenuItem
+      Caption = 'Conta de Clientes'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Relatórios'
+      object MenuItem24: TMenuItem
+        Caption = 'Fluxo de Caixa'
+      end
+      object MenuItem25: TMenuItem
+        Caption = 'Movimentações'
+      end
+      object MenuItem26: TMenuItem
+        Caption = 'Produtos'
+      end
+      object MenuItem27: TMenuItem
+        Caption = 'Vendas'
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Ferramentações'
+      object MenuItem28: TMenuItem
+        Caption = 'Backup do Banco'
+        OnClick = MenuItem28Click
+      end
+      object MenuItem29: TMenuItem
+        Caption = 'Excluir Dados de Vendas'
+      end
+      object MenuItem30: TMenuItem
+        Caption = 'Excluir Dados de Caixa'
+      end
+      object MenuItem31: TMenuItem
+        Caption = 'Excluir Dados de Movimentações'
+      end
+    end
+    object MenuItem6: TMenuItem
+      Caption = 'Consulta na Receita Federal'
+      object MenuItem32: TMenuItem
+        Caption = 'CPF'
+      end
+      object MenuItem33: TMenuItem
+        Caption = 'CNPJ'
+      end
+    end
+    object MenuItem7: TMenuItem
+      Caption = 'Configuração'
+      object MenuItem34: TMenuItem
+        Caption = 'Emitente'
+      end
+      object MenuItem35: TMenuItem
+        Caption = 'Sistema'
+      end
+    end
+    object MenuItem8: TMenuItem
+      Caption = 'Sobre'
+    end
+    object MenuItem9: TMenuItem
+      Caption = 'Sair'
+    end
+  end
+  object atualizarEstoque: TTimer
+    Interval = 10000
+    Left = 720
+    Top = 176
+  end
+  object atualizarCaixa: TTimer
+    Left = 848
+    Top = 176
+  end
+  object Timer1: TTimer
+    Left = 904
+    Top = 168
+  end
+end
